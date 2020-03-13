@@ -1,0 +1,127 @@
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+/*Termina estilo general*/
+/*Empieza estilos banner*/
+
+.bannerpw{
+  background-image: url("../images/fondos/fondo_pw.png");
+  background-size: auto;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 500px;
+}
+
+/*Termina estilo banner*/
+/*Empieza estilos titulo Productos*/
+
+.bloque_tituloprod{
+  background-image: url("../images/fondos/fondo_productos.png");
+}
+
+.titulo_productos{
+  display: flex;
+  padding-top: 50px;
+  padding-right: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/*Termina estilo titulo productos*/
+/*Empieza estilos grid de productos*/
+
+
+.titulo-top{
+  display: flex;
+  padding-top: 50px;
+  padding-right: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.content_discos{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 70px;
+  padding-top: 140px;
+  padding-bottom: 70px;
+
+}
+
+.img_pw{
+  padding: 20px;
+  padding-left: 55px;
+}
+
+.img_billie{
+  padding: 20px;
+  padding-left: 245px;
+}
+
+.img_halsey{
+  padding: 20px;
+  padding-left: 230px;
+}
+
+.img_camila{
+  padding: 20px;
+  padding-left: 55px;
+}
+
+.img_blackpink{
+  padding: 20px;
+  padding-left: 245px;
+}
+
+.img_testament{
+  padding: 20px;
+  padding-left: 230px;
+}
+
+.img_grammy{
+  padding: 20px;
+  padding-left: 55px;
+}
+
+.img_opeth{
+  padding: 20px;
+  padding-left: 245px;
+}
+
+.img_walls{
+  padding: 20px;
+  padding-left: 230px;
+}
+
+.img_atlas{
+  padding: 20px;
+  padding-left: 55px;
+}
+
+/*Termina estilos grid productos*/
+/*Empieza estilos productos indiv*/
+
+.titulo_cd{
+  padding-top: 40px;
+
+}
+
+.modulo_cd{
+  padding-top: 50px;
+
+}
+
+.sub_banda{
+  padding-top: 30px;
+}
+
+.desc_cd{
+  padding-top: 30px;
+}

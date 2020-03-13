@@ -1,0 +1,66 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+/*Termina estilo general*/
+/*Empieza estilos banner*/
+
+.bannerfaq{
+  background-image: url("../images/fondos/fondo_john.png");
+  display: flex;
+  background-size:contain;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+.faq_text{
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+
+}
+
+.john_text{
+  padding-left: 630px;
+  padding-top: 0px;
+  opacity: 0.7;
+}
+
+/*Termina estilo bannerfaq*/
+/*Empieza estilos titulo FAQ*/
+
+.titulo-preg{
+  display: flex;
+  align-content: space-between;
+  padding-top: 120px;
+  padding-left: 120px;
+
+}
+
+.text_preguntauno{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+
+.text_preguntatres{
+  display: flex;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.text_preguntados{
+  padding-top: 30px;
+  padding-left: 200px;
+}
+
+.text_preguntacuatro{
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-bottom: 120px;
+}

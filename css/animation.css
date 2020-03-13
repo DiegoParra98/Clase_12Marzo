@@ -1,0 +1,121 @@
+.fadeIn{
+  animation-duration: 2.2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2.2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.fadeInSlow{
+  animation-duration: 3.2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 3.2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeInSlow{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.fadeInDown{
+  animation-duration: .7s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown{
+  from{
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0% ,0);
+    -webkit-transform: translate3d(0, 0%, 0);
+  }
+}
+
+.fadeInUp{
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0% ,0);
+    -webkit-transform: translate3d(0, 0%, 0);
+  }
+}
+
+.img_brand, .boton_catalog{
+  transition: transform .2s;
+}
+
+.img_brand:hover, .boton_catalog:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.img_sony, .img_uni, .img_warn, .img_yp, .img_loma, .img_nuclear{
+  transition: transform .2s;
+}
+
+.img_sony:hover, .img_uni:hover, .img_warn:hover, .img_yp:hover, .img_loma:hover, .img_nuclear:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.scaleupcenter {
+  animation-name: scaleupcenter;
+  animation: scaleupcenter 2s ease;
+  transition: transform .2s;
+  -webkit-animation-name: scaleupcenter;
+  -webkit-animation: scaleupcenter 2s ease;
+  -webkit-transition: transform .2s;
+}
+
+@keyframes scaleupcenter {
+  from {
+    opacity: 0;
+    transform: scale(0);
+    -webkit-opacity: 0;
+    -webkit-transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}

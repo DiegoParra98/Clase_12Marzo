@@ -1,0 +1,11 @@
+@media (max-width: 600px){
+nav{
+  justify-content: center;
+  padding: 10px;
+}
+
+.bloque_uno{
+  display: inherit;
+}
+
+}
